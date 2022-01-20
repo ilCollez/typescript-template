@@ -21,3 +21,20 @@ This template also includes the `dotenv` package. Just create a `.env` file in t
 - `npm run lint`: Runs `ESLint` for code linting
 - `npm run lint:fix`: Runs `ESLint` for code linting and automatically fixes the issues
 - `npm run format`: Runs Prettier for code formatting
+
+## Use this template
+First of all, you need to clone this repository.
+
+```bash
+# Make sure to replace <project-name> with the name of the target folder
+
+# With git
+git clone https://github.com/ilCollez/typescript-template.git <project-name>
+
+# With gh (Github CLI)
+gh repo clone ilCollez/typescript-template <project-name>
+```
+
+Then, install the dependencies witn `npm install`
+
+You are ready to start coding! Run `npm run dev` and edit the `src/main.ts` file :)

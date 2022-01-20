@@ -4,7 +4,7 @@
   "description": "TypeScript template by Collez",
   "main": "dist/main.js",
   "scripts": {
-    "prepare": "husky install && npm run build",
+    "prepare": "husky install",
     "start": "node dist/main.js",
     "build": "tsc",
     "dev": "nodemon src/main.ts",
