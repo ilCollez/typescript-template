@@ -1,4 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm run lint:fix && npm run format && npm test
+[ -n "$CI" ] && exit 0
+
+npm run lint:fix
+npm run format
+npm test
