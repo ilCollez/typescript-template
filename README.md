@@ -20,7 +20,7 @@ This template also includes the `dotenv` package. Just create a `.env` file in t
 - `npm test`: Runs the unit tests with `Jest`
 - `npm run lint`: Runs `ESLint` for code linting
 - `npm run lint:fix`: Runs `ESLint` for code linting and automatically fixes the issues
-- `npm run format`: Runs Prettier for code formatting
+- `npm run format`: Runs `Prettier` for code formatting
 
 ## Use this template
 First of all, you need to clone this repository.
