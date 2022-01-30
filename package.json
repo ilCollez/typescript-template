@@ -4,7 +4,6 @@
   "description": "TypeScript template by Collez",
   "main": "dist/main.js",
   "scripts": {
-    "prepare": "husky install",
     "start": "node dist/main.js",
     "build": "tsc",
     "dev": "nodemon src/main.ts",
@@ -25,7 +24,6 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.4",
-    "husky": "^7.0.4",
     "jest": "^27.4.7",
     "nodemon": "^2.0.15",
     "prettier": "^2.5.1",

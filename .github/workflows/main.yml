@@ -1,14 +1,13 @@
-name: Test PR
-on: pull_request
+name: Build, test and lint
+on: push
 
 permissions:
-  pull-requests: write
+  checks: write
   contents: write
 
 jobs:
-  test-pr:
+  build-test-lint:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
 
@@ -32,10 +31,4 @@ jobs:
         with:
           eslint: true
           prettier: true
-
-      - name: Merge DependaBot PR
-        if: ${{ github.actor == 'dependabot[bot]' }}
-        run: gh pr merge --auto --merge "$PR_URL"
-        env:
-          PR_URL: ${{ github.event.pull_request.html_url }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          auto_fix: true
