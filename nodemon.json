@@ -1,12 +1,12 @@
 {
-    "ext": "ts",
-    "ignore": ["*.test.ts"],
-    "watch": ["src", ".env"],
-    "verbose": true,
-    "execMap": {
-        "ts": "node -r ts-node/register -r dotenv/config --inspect"
-    },
-    "env": {
-        "NODE_ENV": "development"
-    }
+  "ext": "ts",
+  "ignore": ["*.test.ts"],
+  "watch": ["src", ".env"],
+  "verbose": true,
+  "execMap": {
+    "ts": "node -r ts-node/register -r dotenv/config --inspect"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  }
 }
