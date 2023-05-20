@@ -5,7 +5,7 @@ It provides a simple but complete setup for a general purpose TypeScript app.
 
 ## This template includes
 
--   [TypeScript](https://typescriptlang.org) 4.5
+-   [TypeScript](https://typescriptlang.org)
 -   [Jest](https://jestjs.io/) for unit testing
 -   [Prettier](https://prettier.io/) for code formatting
 -   [ESLint](https://eslint.org/) for code linting
