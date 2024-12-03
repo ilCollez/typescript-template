@@ -5,23 +5,23 @@ It provides a simple but complete setup for a general purpose TypeScript app.
 
 ## This template includes
 
--   [TypeScript](https://typescriptlang.org)
--   [Jest](https://jestjs.io/) for unit testing
--   [Prettier](https://prettier.io/) for code formatting
--   [ESLint](https://eslint.org/) for code linting
--   [Nodemon](https://nodemon.io/) for hot reloading
+- [TypeScript](https://typescriptlang.org)
+- [Jest](https://jestjs.io/) for unit testing
+- [Prettier](https://prettier.io/) for code formatting
+- [ESLint](https://eslint.org/) for code linting
+- [Nodemon](https://nodemon.io/) for hot reloading
 
 This template also includes the `dotenv` package. Just create a `.env` file in the root of your project and add your environment variables, they will be automatically loaded when running `npm run dev`. **NOTE: `dotenv` is installed as a dev dependency, as it is not recommended to use it in production**
 
 ## Scripts
 
--   `npm start`: Starts the application
--   `npm run dev`: Starts `Nodemon` with `ts-node`
--   `npm run build`: Builds the project for production
--   `npm test`: Runs the unit tests with `Jest`
--   `npm run lint`: Runs `ESLint` for code linting
--   `npm run lint:fix`: Runs `ESLint` for code linting and automatically fixes the issues
--   `npm run format`: Runs `Prettier` for code formatting
+- `npm start`: Starts the application
+- `npm run dev`: Starts `Nodemon` with `ts-node`
+- `npm run build`: Builds the project for production
+- `npm test`: Runs the unit tests with `Jest`
+- `npm run lint`: Runs `ESLint` for code linting
+- `npm run lint:fix`: Runs `ESLint` for code linting and automatically fixes the issues
+- `npm run format`: Runs `Prettier` for code formatting
 
 ## Use this template
 
